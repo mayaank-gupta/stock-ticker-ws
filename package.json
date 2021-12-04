@@ -1,0 +1,32 @@
+{
+  "name": "stock-ticker-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayaank-gupta/stock-ticker-ws.git"
+  },
+  "keywords": [
+    "nodejs",
+    "socketio",
+    "websocket",
+    "javascript",
+    "npm",
+    "express"
+  ],
+  "author": "Mayank S. Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayaank-gupta/stock-ticker-ws/issues"
+  },
+  "homepage": "https://github.com/mayaank-gupta/stock-ticker-ws#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}
