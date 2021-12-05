@@ -30,7 +30,8 @@
     "socket.io": "^4.4.0"
   },
   "engines": {
-    "node": "14.17.3"
+    "node": "14.17.3",
+    "npm": "8.2.0"
   },
   "devDependencies": {
     "eslint": "^8.4.0"
