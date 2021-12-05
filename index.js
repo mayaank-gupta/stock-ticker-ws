@@ -4,10 +4,12 @@ const { stockList, updateStockList } = require("./utilities").dummyStocks;
 
 const app = express();
 
+const PORT = process.env.PORT || 5000;
+
 console.log("__dirname", __dirname);
 app.use('/', (req, res) => {   res.sendFile(__dirname + "/public/index.html"); })
 
-const appInstance = app.listen(4000);
+const appInstance = app.listen(PORT);
 
 const STOCK_REFRESH_INTERVAL = 2000;
 const webSocket = socketIo(appInstance);
