@@ -18,11 +18,6 @@ const stockList = [
     name: "TATAPOWER",
     price: 85,
     change_percent: 0,
-  },
-  {
-    name: "TOTAL",
-    price: 0,
-    change_percent: 0,
   }
 ];
 
@@ -35,7 +30,6 @@ const updateStockList = (stockName) => {
     newVal -= stock.price;
   }
   newVal = Math.abs(newVal);
-  
   let percentageDif = (newVal - stock.price) / 100;
   stock.price = newVal;
   stock.change_percent = percentageDif;

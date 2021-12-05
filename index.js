@@ -6,8 +6,9 @@ const app = express();
 
 const PORT = process.env.PORT || 5000;
 
-console.log("__dirname", __dirname);
-app.use('/', (req, res) => {   res.sendFile(__dirname + "/public/index.html"); })
+app.use("/", (req, res) => {
+  res.sendFile(__dirname + "/public/index.html");
+});
 
 const appInstance = app.listen(PORT);
 
@@ -20,8 +21,6 @@ stockList.forEach((stock) => {
     stockUpdateService(socket, stock.name);
   });
 });
-
-
 
 const stockUpdateService = (socket, stockName) => {
   socket.emit("stockUpdateMsg", updateStockList(stockName));
