@@ -1,1 +1,50 @@
-# stock-ticker-ws
+# Stock Ticker (SocketIO Implementation)
+> Simple implementation of SocketIO (Client & Server)
+>
+> I have used Namespace which is communication channel that allows you to split the logic of your application over a single shared connection (also called "multiplexing").
+>
+> Bidirectional and low-latency communication for every platform.
+
+![https://stock-ticker-ws.herokuapp.com/](./example.gif "Example")
+
+## Live Demo > https://stock-ticker-ws.herokuapp.com/
+
+## Steps to start server
+
+### Step 1
+
+Clone this project on your local machine
+
+```
+git clone git@github.com:mayaank-gupta/stock-ticker-ws.git
+```
+
+### Step 2
+Change directory
+
+```
+cd stock-ticker-ws
+```
+
+### Step 3
+
+Install libraries
+
+```
+npm install
+```
+
+### Step 4 
+
+Start application
+
+```
+node index.js
+```
+### Step 5
+
+See app in action
+
+```
+http://localhost:5000/
+```
