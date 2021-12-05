@@ -5,6 +5,7 @@
         <title>Dummy Stock App</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
     </head>
 </html>
 <body>
@@ -52,8 +53,6 @@
             font-weight: bold;
         }
         .percentageChange{
-            display: flex;
-            padding: 20%;
             font-size: small;
         }
         .stockNos{
@@ -137,7 +136,7 @@
                 <div class="col-lg-12 stockListItem">
                     <div class="stockName col-lg-8"><label>${stockName}</label></div>
                     <div class="stockNos col-lg-4">
-                        <label class="percentageChange col-lg-4" id="${stockName}Percent" >0%</label>
+                        <label class="col-lg-8" id="${stockName}Percent">0%</label>
                         <label class="col-lg-6" id="${stockName}Amount">0Rs</label>
                         <label class="col-lg-2" onclick="unwatchStock('${stockName}')">X</label>
                     </div>
