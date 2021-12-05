@@ -21,6 +21,8 @@ stockList.forEach((stock) => {
   });
 });
 
+
+
 const stockUpdateService = (socket, stockName) => {
   socket.emit("stockUpdateMsg", updateStockList(stockName));
   const stockTickerInterval = setInterval(() => {
