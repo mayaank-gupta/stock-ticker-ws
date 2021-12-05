@@ -29,7 +29,6 @@ cd stock-ticker-ws
 ### Step 3
 
 Install libraries
-![example1](https://user-images.githubusercontent.com/64889756/144763040-31234bd5-cab8-4935-8af1-a4ea48d04631.gif)
 
 ```
 npm install
