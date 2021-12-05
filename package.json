@@ -27,6 +27,7 @@
   "homepage": "https://github.com/mayaank-gupta/stock-ticker-ws#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "negotiator": "^0.6.2",
     "socket.io": "^4.4.0"
   },
   "engines": {
