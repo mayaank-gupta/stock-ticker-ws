@@ -5,7 +5,7 @@
 >
 > Bidirectional and low-latency communication for every platform.
 
-![https://stock-ticker-ws.herokuapp.com/](./example.gif "Example")
+![https://stock-ticker-ws.herokuapp.com/](example1.gif "Example")
 
 ## Live Demo > https://stock-ticker-ws.herokuapp.com/
 
